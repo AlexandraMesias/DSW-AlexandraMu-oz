@@ -1,0 +1,113 @@
+
+     * {
+         padding: 0;
+         margin: 0;
+         list-style: none;
+      
+  }
+
+  body {
+      font-family: Arial;
+      margin: 0;
+  }
+
+ 
+  header {
+      padding: 30px;
+      text-align: center;
+      background: #3f3f3f;
+      color: #00CCFF;
+  }
+nav{
+    color: blanchedalmond;
+    background-color: gray;
+} 
+.navbar-nav a{
+    color: black;
+}
+.nav-item {
+    margin: 0 20px;
+
+    
+}
+.navbar-nav a:hover {
+    background: #00CCFF;
+    color: #fff;
+    
+}
+.dropdown-menu a:hover {
+    background-color:#00CCFF;
+    padding: 10px;
+    
+}
+.dropdown-menu  {
+    background-color: gray;
+    
+   
+    
+}
+.navbar-toggler{
+    background-color:white;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+.navbar-toggler span{
+    background-color:#00CCFF ;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    display: block;
+
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 22px;
+    
+}
+.navbar-toggler span + span + span{
+    
+    width: 22px;
+    
+}
+
+aside{
+    background: #bbdaff;
+    
+    
+     
+    
+}
+.centrado { width: 90%; padding-left: 1cm; }
+  iframe.centrado { display: block; }
+
+section{
+    background:#e9e9e9;
+    padding: 10px;
+}
+
+@media(max-width: 575px){
+    
+}  
+@media(min-width:576px) and (max-width:767px){
+     
+    
+}
+@media(min-width:768px) and (max-width:991px){
+ 
+}
+@media(min-width:992px){
+    .alto-100{
+        height: 100vh;
+    }
+    
+
+}
+
+
+  
+footer {
+    padding: 20px;
+    text-align: center;
+    background: gray;
+}
